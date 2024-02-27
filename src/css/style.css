@@ -198,9 +198,9 @@ nav .active a, nav a:hover {
 
 article {
     flex: 1;
-    min-width: 400px;
+    min-width: 600px;
     margin-right: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 article .news_data {
@@ -303,7 +303,7 @@ footer .news_resume {
 .footer_copy {
     border-top: 1px solid rgba(255, 255, 255, 0.103);
     color: #aca8ac;
-    height: 40px;
-    line-height: 40px;
-    margin-top: 10px;
+    height: 60px;
+    line-height:60px;
+    margin-top: 40px;
 }
