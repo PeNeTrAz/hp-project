@@ -23,7 +23,7 @@ header {
 .container {
     display: flex;
     justify-content: space-between;
-    width: 990px;
+    width: 1800px;
 }
 
 .logo {
@@ -80,7 +80,6 @@ nav .active a, nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: -200px;
 }
 
 .banner_headline h1 {
@@ -105,7 +104,6 @@ nav .active a, nav a:hover {
 .banner_options {
     height: 260px;
     display: flex;
-    width: 1200px;
 }
 
 .banner1, .banner2, .banner3 {
@@ -187,8 +185,125 @@ nav .active a, nav a:hover {
 }
 
 .widget_title_bar {
-    width: 50px;
+    width: 70px;
     height: 3px;
     background-color: #36A9E1;
     margin-top: 6px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 400px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+article .news_data {
+    display: flex;
+}
+
+article .news_posted_at {
+    color: white;
+    background-color: #2B4C99;
+    font-size: 16px;
+    padding: 10px;
+}
+
+article .news_comments {
+    color: white;
+    background-color: #39AAE1;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 3px;
+}
+
+article .news_thumbnail {
+    margin-top: 30px;
+}
+
+article .news_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+article .news_resume {
+    line-height: 24px;
+    font-size: 18px;
+    color: #5C5C5C;
+}
+
+article a {
+    text-decoration: none;
+}
+
+
+/** Footer **/
+
+footer {
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_options {
+    height: 140px;
+    display: flex;
+}
+
+.footer_area {
+    display: flex;
+    flex: 1;
+}
+
+footer .widget {
+    flex: 1;
+    color: white;
+}
+
+footer .widget_title_text {
+    color: white;
+    margin-top: 40px;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.address {
+    margin-top: 40px;
+    color: #aca8ac;
+    display: flex;
+}
+
+.address1, .address2 {
+    flex: 1;
+}
+
+.address2 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .news_resume {
+    color: #aca8ac;
+}
+
+.footer_copy {
+    border-top: 1px solid rgba(255, 255, 255, 0.103);
+    color: #aca8ac;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
 }
